@@ -1,0 +1,6 @@
+.footer_text__gradient{
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    background-clip: content-box;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
