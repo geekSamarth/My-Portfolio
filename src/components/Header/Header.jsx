@@ -4,14 +4,14 @@ import { FaFingerprint } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
-    <header className="py-4 border-b border-[rgba(255,255,255,0.3)] px-4 flex items-center justify-between text-white">
-      <div className="flex items-center gap-2 ml-6 text-[#00FF40]">
+    <header className="bg-[#0F1624] min-w-full py-4 border-b border-[rgba(255,255,255,0.3)] md:px-4 flex items-center justify-between text-white">
+      <div className="flex items-center gap-2 pl-2 md:pl-4 text-[#00FF40]">
         <span className="p-1.5 rounded-full border border-[#00FF40] text-xl">
           <FaFingerprint color="#00FF40" />{" "}
         </span>
-        <p className=" font-semibold text-xl ">Portfolio</p>
+        <Link to={"/"} className=" font-semibold text-xl ">Portfolio</Link>
       </div>
-      <div className="md:mr-16">
+      <div className="hidden md:block md:mr-3 lg:mr-10">
         <ul className="flex items-center gap-10">
           {navLinks.map((link) => {
             return (

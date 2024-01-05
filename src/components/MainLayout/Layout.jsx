@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 
 function Layout() {
   return (
-    <main className="bg-[#0F1624] w-full min-h-screen">
+    <main className=" min-h-screen">
       <Header />
       <Outlet />
       <Footer />
