@@ -4,7 +4,7 @@ import { FaFingerprint } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
-    <header className="bg-[#0F1624] min-w-full py-4 border-b border-[rgba(255,255,255,0.3)] md:px-4 flex items-center justify-between text-white">
+    <header className="bg-[#010B13] min-w-full py-4 border-b border-[rgba(255,255,255,0.3)] md:px-4 flex items-center justify-between text-white">
       <div className="flex items-center gap-2 pl-2 md:pl-4 text-[#00FF40]">
         <span className="p-1.5 rounded-full border border-[#00FF40] text-xl">
           <FaFingerprint color="#00FF40" />{" "}
