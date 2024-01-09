@@ -1,12 +1,11 @@
 import React from 'react'
-
+import { Project,Container } from '../components'
 function Projects() {
   return (
-    <div>
-      Projects
-    </div>
+    <Container>
+      <Project/>
+    </Container>
   )
 }
 
 export default Projects
-Projects

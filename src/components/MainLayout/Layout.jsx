@@ -5,9 +5,9 @@ import {Footer} from "../index";
 import "../../App.css"
 function Layout() {
   return (
-    <main className=" min-h-screen">
+    <main className="">
       <Header />
-      <section className="bg-[#001524]"><Outlet /></section>
+      <section className="outlet__bg"><Outlet /></section>
       <Footer />
     </main>
   );
