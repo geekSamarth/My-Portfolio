@@ -1,6 +1,22 @@
-.outlet__bg{
-    /* background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% ); */
-    /* background-image: linear-gradient( 109.6deg,  rgb(5, 3, 3) 21.2%, rgb(37, 4, 63) 91.1% ); */
-    background-image: radial-gradient( circle 815px at 31.4% -62.8%,  rgb(7, 59, 172) 11.2%, rgba(0,0,0,1) 100.2% );
-
+::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  border-radius: 10px;
+}
+.outlet__bg {
+  /* background: radial-gradient(circle, hsla(199, 12%, 41%, 1) 0%, hsla(228, 75%, 16%, 1) 100%); */
+  /* background: radial-gradient(circle, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%); */
+  background-image: linear-gradient(to right bottom, #36093d, #29123b, #1e1737, #171930, #151927, #131826, #121726, #101625, #0d132c, #0d0f32, #120937, #1b0039);
+}
+.image_shadow{
+  box-shadow: 0 0 60px 10px indigo;
 }
