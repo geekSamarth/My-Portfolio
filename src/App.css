@@ -1,6 +1,6 @@
 ::-webkit-scrollbar {
   width: 7px;
-  background: transparent;
+  background: gray;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #4158d0;
@@ -18,5 +18,11 @@
   background-image: linear-gradient(to right bottom, #36093d, #29123b, #1e1737, #171930, #151927, #131826, #121726, #101625, #0d132c, #0d0f32, #120937, #1b0039);
 }
 .image_shadow{
-  box-shadow: 0 0 60px 10px indigo;
+  box-shadow: 0 0 15px 3px indigo;
+}
+.experience__box__shadow{
+  box-shadow: 0 0 8px 4px indigo;
+}
+.contact__form__shadow{
+  box-shadow: 0 0 32px 1px #472a69;
 }

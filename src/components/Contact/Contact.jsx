@@ -23,7 +23,7 @@ function Contact() {
       );
   };
   return (
-    <section className="py-20">
+    <section className="py-24">
       <div className="text-center pb-14 text-white">
         <h1 className="font-bold text-5xl mb-3">Contact</h1>
         <p className="text-2xl ">
@@ -33,9 +33,9 @@ function Contact() {
       <form
         ref={form}
         onSubmit={handleEmail}
-        className="w-full max-w-[620px] px-3 py-8 md:px-10 bg-[rgba(0,0,0,0.55)] rounded-2xl flex flex-col mx-auto backdrop-blur-xl"
+        className="w-full max-w-[620px] px-3 py-8 md:px-10 bg-[rgba(0,0,0,0.55)] rounded-2xl flex flex-col mx-auto backdrop-blur-xl contact__form__shadow"
       >
-        <span className="font-bold text-3xl text-white mb-5">Email Me 🚀</span>
+        <span className="font-bold text-3xl text-white mb-4">Email Me 🚀</span>
         <input
           type="text"
           name="user_name"

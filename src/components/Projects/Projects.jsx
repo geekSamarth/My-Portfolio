@@ -2,20 +2,23 @@ import React from "react";
 import { projectData } from "../../data/projectData";
 import { FaLink } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+const ProjectCard=({image,name,description,projectLink,techStack})=>{
+ 
+}
 function Projects() {
   return (
     <>
-      <section className="h-full flex flex-col text-center pt-20 md:pt-28">
-        <h1 className="text-5xl font-bold  mb-3 text-white pl-3">Projects</h1>
+      <section className="h-full flex flex-col text-center pt-12">
+        <h1 className="text-5xl font-bold  mb-3 text-white pl-3 md:pl-0">Projects</h1>
         <p className="text-2xl  text-[rgba(255,255,255,0.75)] mb-6 md:mb-8 md:pl-5">
           Things I have built so far to enhancing my skills.
         </p>
-        <div className="flex items-center my-12">
+        <div className="flex items-center my-10  ">
           <div className="flex flex-wrap justify-center items-center gap-7 md:gap-16  mx-4">
             {projectData.map((project) => {
               return (
                 <div
-                  className="w-full md:w-[320px] rounded-xl flex flex-col border-white border-2 hover:scale-105 hover:transition-all hover:duration-700 hover:ease-out"
+                  className="w-full md:w-[320px] rounded-xl flex flex-col border-white border-2 hover:scale-105 ease-in-out duration-300"
                   key={project.id}
                 >
                   <img

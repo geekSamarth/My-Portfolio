@@ -1,11 +1,13 @@
-import { Contact, Home, Project, Skills } from "./components";
+import { Contact, About, Project, Skills, Experience, Education } from "./components";
 import './App.css'
 function App() {
   return (
     <>
-    <Home/>
+    <About/>
     <Skills/>
+    <Experience/>
     <Project/>
+    <Education/>
     <Contact/>
     </>
   );
