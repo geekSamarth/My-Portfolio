@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 4px;
   background: gray;
 }
 ::-webkit-scrollbar-thumb {
@@ -15,14 +15,49 @@
 .outlet__bg {
   /* background: radial-gradient(circle, hsla(199, 12%, 41%, 1) 0%, hsla(228, 75%, 16%, 1) 100%); */
   /* background: radial-gradient(circle, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%); */
-  background-image: linear-gradient(to right bottom, #36093d, #29123b, #1e1737, #171930, #151927, #131826, #121726, #101625, #0d132c, #0d0f32, #120937, #1b0039);
+  background-image: linear-gradient(
+    to right bottom,
+    #36093d,
+    #29123b,
+    #1e1737,
+    #171930,
+    #151927,
+    #131826,
+    #121726,
+    #101625,
+    #0d132c,
+    #0d0f32,
+    #120937,
+    #1b0039
+  );
 }
-.image_shadow{
+.header__bg {
+  background: linear-gradient(90deg, rgb(24, 5, 37) 0%, rgb(25, 1, 48) 100%);
+}
+.image_shadow {
   box-shadow: 0 0 15px 3px indigo;
 }
-.experience__box__shadow{
+.experience__box__shadow {
   box-shadow: 0 0 8px 4px indigo;
 }
-.contact__form__shadow{
-  box-shadow: 0 0 32px 1px #472a69;
+.contact__form__shadow {
+  box-shadow: 0 0 32px 1px rgb(41, 41, 82);
+}
+.project_box_shaodw {
+  box-shadow: 0 0 12px 1px rgb(41, 41, 82);
+}
+.project_box_shaodw:hover {
+  box-shadow: 0 0 20px 3px rgb(60, 60, 110);
+}
+
+.profile_picture {
+  animation: bounces 2s ease-in-out infinite alternate;
+}
+@keyframes bounces {
+  0% {
+    transform: rotate(0.5deg) translateY(3px);
+  }
+  100% {
+    transform: rotate(-0.5deg) translateY(-3px);
+  }
 }
